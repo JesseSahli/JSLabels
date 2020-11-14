@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1D7D2B5C417D3D87C660882D0E85E998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2FCC93E6B977C2C71DD9AE034198A20A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9166D8C0E45CD89D357394A9F37D /* ReplaceMe.swift */; };
 		33E7AFC0E7166B2DA493F75D846477F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		481ACB0E235FB5893D0B360FC6BF1B93 /* Pods-JSLabels_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD72F22AABE746F19708107F1C589789 /* Pods-JSLabels_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BA9E0635A119650951651465C2AB15E /* JSLabels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F87370836BD8C644C7FDF9C39A181250 /* JSLabels-dummy.m */; };
+		57C7149754BC84A12349DD0D2FDC8A10 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19928D912A16618479C4D77E8BE87380 /* BlinkingLabel.swift */; };
 		741A3FD8DC950C28C8E97387EEB14D8A /* Pods-JSLabels_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A23313C1BA48F1956D5F685648ADB4 /* Pods-JSLabels_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88D42FD325F52F1A0013C2D9FCE1E8A3 /* Pods-JSLabels_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 890AF3A4EE46BEA20DF5B35551C28BA2 /* Pods-JSLabels_Example-dummy.m */; };
+		8CE0031ED1ED5B953AD346FE83A86F67 /* JSLabels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AE9EAD6B6D3ED3991C4182D6E6A789 /* JSLabels-dummy.m */; };
 		CEB32C5979A27D13B745602675ED3E25 /* Pods-JSLabels_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E422A9B7FC60F27D9EF7187E721397F /* Pods-JSLabels_Tests-dummy.m */; };
-		E91FD4CCCC52B607EDF0197B98CC9004 /* JSLabels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 211301F52C33AA591699634EA93852F1 /* JSLabels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91FD4CCCC52B607EDF0197B98CC9004 /* JSLabels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC22FB3493A171E267C221FB0498FC18 /* JSLabels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB9EC6FD02B50E4416656D7E1E8F6EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,38 +38,38 @@
 
 /* Begin PBXFileReference section */
 		05C8D708A5998B33CA2205FC6B444F66 /* Pods-JSLabels_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLabels_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		138DE1F63C217E92A3BDA3DF3FB0B791 /* JSLabels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSLabels-prefix.pch"; sourceTree = "<group>"; };
-		17BC8C349C985759ABFB38C110111F06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		211301F52C33AA591699634EA93852F1 /* JSLabels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSLabels-umbrella.h"; sourceTree = "<group>"; };
-		266DA9213854F4F7D11C1721E0BCC823 /* JSLabels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLabels.release.xcconfig; sourceTree = "<group>"; };
+		19928D912A16618479C4D77E8BE87380 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = JSLabels/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
+		336C351240371C6BB1BCFFD8E91AD4E8 /* JSLabels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSLabels-prefix.pch"; sourceTree = "<group>"; };
 		4270FCD815DCF262ACF2A472AD0FFE06 /* Pods-JSLabels_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLabels_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4778E1F18799B19DBE131D5C5BBB71A4 /* JSLabels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSLabels.framework; path = JSLabels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDA1D6B202263831BE285B4E20C07EF /* Pods-JSLabels_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLabels_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		598F9166D8C0E45CD89D357394A9F37D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JSLabels/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		61E490C131A485D5712AB846B3526BF8 /* Pods-JSLabels_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLabels_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7174702251D9CA95B252CE58ACE85EDE /* Pods-JSLabels_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLabels_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C1EEC5FF0ED216AE57A832520853C83 /* JSLabels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSLabels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E1A120211F96C49CA3D99AED0E857EA /* JSLabels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLabels.release.xcconfig; sourceTree = "<group>"; };
 		7E422A9B7FC60F27D9EF7187E721397F /* Pods-JSLabels_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSLabels_Tests-dummy.m"; sourceTree = "<group>"; };
 		80C423E9C4C029D84DBF44ABDB6637C2 /* Pods_JSLabels_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLabels_Example.framework; path = "Pods-JSLabels_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C4B2315D1849371056AF1015CF41B2 /* Pods-JSLabels_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLabels_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88702396E0C88AF829832B785D57932E /* JSLabels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSLabels-Info.plist"; sourceTree = "<group>"; };
 		890AF3A4EE46BEA20DF5B35551C28BA2 /* Pods-JSLabels_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSLabels_Example-dummy.m"; sourceTree = "<group>"; };
+		8D781176DF0EFFDA52E311F60065FCA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		920718031078ABBC26A9FC0D484E4142 /* Pods-JSLabels_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLabels_Example-Info.plist"; sourceTree = "<group>"; };
 		93E74B478ADA46D04D588B5F8B475432 /* Pods-JSLabels_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSLabels_Tests.modulemap"; sourceTree = "<group>"; };
 		9495946348E5FB523ECBEBDA06A01BE1 /* Pods-JSLabels_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSLabels_Example.modulemap"; sourceTree = "<group>"; };
-		9C6B17AC0A1AC6C6EE7149190A0200D7 /* JSLabels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSLabels-Info.plist"; sourceTree = "<group>"; };
-		9CFF728CA4CD6E33E727A3E52CDDD192 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2E297B99148767992FA2B32794130FC /* Pods-JSLabels_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLabels_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A3E2960B51D052B8B9D28658243B27E2 /* Pods_JSLabels_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLabels_Tests.framework; path = "Pods-JSLabels_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A712C6044E2F33B61ED1BD1ED87166C9 /* JSLabels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSLabels.modulemap; sourceTree = "<group>"; };
+		A98E8A8E2B8DFF9550DE4E37C68AE2F3 /* JSLabels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSLabels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8A23313C1BA48F1956D5F685648ADB4 /* Pods-JSLabels_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLabels_Example-umbrella.h"; sourceTree = "<group>"; };
 		BD72F22AABE746F19708107F1C589789 /* Pods-JSLabels_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLabels_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C4F702B662EBE9B402E022D55BECC5BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C6E3A0101A0B5B4DF353C4F6B0225C47 /* JSLabels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSLabels.modulemap; sourceTree = "<group>"; };
 		CCDBABD8F3FE05EC23A51B2D8C5689D3 /* Pods-JSLabels_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLabels_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEE850E72DE1AE471622D5436080D476 /* JSLabels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLabels.debug.xcconfig; sourceTree = "<group>"; };
+		D1AE9EAD6B6D3ED3991C4182D6E6A789 /* JSLabels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSLabels-dummy.m"; sourceTree = "<group>"; };
 		DCFCBF6AF4B532E4764E797270FF3525 /* Pods-JSLabels_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLabels_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E3AB508B51D31D61BA34C1A5F5928C90 /* Pods-JSLabels_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSLabels_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F87370836BD8C644C7FDF9C39A181250 /* JSLabels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSLabels-dummy.m"; sourceTree = "<group>"; };
+		E44D09DF63D6956AE2A6E276A7A09230 /* JSLabels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLabels.debug.xcconfig; sourceTree = "<group>"; };
+		FC22FB3493A171E267C221FB0498FC18 /* JSLabels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSLabels-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +117,12 @@
 			path = "Target Support Files/Pods-JSLabels_Example";
 			sourceTree = "<group>";
 		};
-		3E7A10F0EF1579844244E7C323DB1442 /* Pod */ = {
+		3ECC9C86F6BA31253FC4BD9BD82AFC9F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7C1EEC5FF0ED216AE57A832520853C83 /* JSLabels.podspec */,
-				9CFF728CA4CD6E33E727A3E52CDDD192 /* LICENSE */,
-				17BC8C349C985759ABFB38C110111F06 /* README.md */,
+				A98E8A8E2B8DFF9550DE4E37C68AE2F3 /* JSLabels.podspec */,
+				8D781176DF0EFFDA52E311F60065FCA3 /* LICENSE */,
+				C4F702B662EBE9B402E022D55BECC5BE /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -144,21 +144,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5EAAD6D05231479441B5C2F772EEDBF6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A712C6044E2F33B61ED1BD1ED87166C9 /* JSLabels.modulemap */,
-				F87370836BD8C644C7FDF9C39A181250 /* JSLabels-dummy.m */,
-				9C6B17AC0A1AC6C6EE7149190A0200D7 /* JSLabels-Info.plist */,
-				138DE1F63C217E92A3BDA3DF3FB0B791 /* JSLabels-prefix.pch */,
-				211301F52C33AA591699634EA93852F1 /* JSLabels-umbrella.h */,
-				CEE850E72DE1AE471622D5436080D476 /* JSLabels.debug.xcconfig */,
-				266DA9213854F4F7D11C1721E0BCC823 /* JSLabels.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JSLabels";
-			sourceTree = "<group>";
-		};
 		6DCFF9D772A3A6E37112BAE3A63AB405 /* Pods-JSLabels_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,23 +160,38 @@
 			path = "Target Support Files/Pods-JSLabels_Tests";
 			sourceTree = "<group>";
 		};
-		B14D1AC547B66AC65B2014F57A86CAFD /* Development Pods */ = {
+		90335A84D74BEC386437011CC2F352C8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE10B70983DD3271E976640595AE4EE3 /* JSLabels */,
+				C6E3A0101A0B5B4DF353C4F6B0225C47 /* JSLabels.modulemap */,
+				D1AE9EAD6B6D3ED3991C4182D6E6A789 /* JSLabels-dummy.m */,
+				88702396E0C88AF829832B785D57932E /* JSLabels-Info.plist */,
+				336C351240371C6BB1BCFFD8E91AD4E8 /* JSLabels-prefix.pch */,
+				FC22FB3493A171E267C221FB0498FC18 /* JSLabels-umbrella.h */,
+				E44D09DF63D6956AE2A6E276A7A09230 /* JSLabels.debug.xcconfig */,
+				7E1A120211F96C49CA3D99AED0E857EA /* JSLabels.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSLabels";
 			sourceTree = "<group>";
 		};
-		BE10B70983DD3271E976640595AE4EE3 /* JSLabels */ = {
+		AEE222D1EE8B92B76BBD81E7FC37952C /* JSLabels */ = {
 			isa = PBXGroup;
 			children = (
-				598F9166D8C0E45CD89D357394A9F37D /* ReplaceMe.swift */,
-				3E7A10F0EF1579844244E7C323DB1442 /* Pod */,
-				5EAAD6D05231479441B5C2F772EEDBF6 /* Support Files */,
+				19928D912A16618479C4D77E8BE87380 /* BlinkingLabel.swift */,
+				3ECC9C86F6BA31253FC4BD9BD82AFC9F /* Pod */,
+				90335A84D74BEC386437011CC2F352C8 /* Support Files */,
 			);
 			name = JSLabels;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B14D1AC547B66AC65B2014F57A86CAFD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222D1EE8B92B76BBD81E7FC37952C /* JSLabels */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -296,7 +296,7 @@
 			buildConfigurationList = 2685286DA924F405A665D702F31F5575 /* Build configuration list for PBXNativeTarget "JSLabels" */;
 			buildPhases = (
 				BECE9B20DE19C9789CF82D9F38F6C46D /* Headers */,
-				F027BC112167EDE1D5F0DD1E6CDB893E /* Sources */,
+				10CB077F327847FF2384D1461A62313E /* Sources */,
 				BA7C27AF8E7CD40C4F75F3E63439BBCD /* Frameworks */,
 				EAA8E6C28B6033DC2E693044EE1C7F28 /* Resources */,
 			);
@@ -371,20 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10CB077F327847FF2384D1461A62313E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C7149754BC84A12349DD0D2FDC8A10 /* BlinkingLabel.swift in Sources */,
+				8CE0031ED1ED5B953AD346FE83A86F67 /* JSLabels-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		655D19408CDB040B3834E9D9751FAA7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEB32C5979A27D13B745602675ED3E25 /* Pods-JSLabels_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F027BC112167EDE1D5F0DD1E6CDB893E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BA9E0635A119650951651465C2AB15E /* JSLabels-dummy.m in Sources */,
-				2FCC93E6B977C2C71DD9AE034198A20A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,36 +406,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2ADC7943A485AEB6C95B23B882633E7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE850E72DE1AE471622D5436080D476 /* JSLabels.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JSLabels/JSLabels-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSLabels/JSLabels-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSLabels/JSLabels.modulemap";
-				PRODUCT_MODULE_NAME = JSLabels;
-				PRODUCT_NAME = JSLabels;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		423FEADC95A0745C44DF35766F24CDB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4270FCD815DCF262ACF2A472AD0FFE06 /* Pods-JSLabels_Example.release.xcconfig */;
@@ -659,6 +629,36 @@
 			};
 			name = Debug;
 		};
+		DBFD3DE2FAF007A008C8D9FBB1B6331C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44D09DF63D6956AE2A6E276A7A09230 /* JSLabels.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSLabels/JSLabels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSLabels/JSLabels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSLabels/JSLabels.modulemap";
+				PRODUCT_MODULE_NAME = JSLabels;
+				PRODUCT_NAME = JSLabels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E3760B1B9A47D46740B9BC4DC629A3B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFCBF6AF4B532E4764E797270FF3525 /* Pods-JSLabels_Tests.release.xcconfig */;
@@ -692,9 +692,9 @@
 			};
 			name = Release;
 		};
-		E620AD8A32AB1B13F787FF1DB0589D9B /* Release */ = {
+		F77F6D65699524F488D99E8C46DE316F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 266DA9213854F4F7D11C1721E0BCC823 /* JSLabels.release.xcconfig */;
+			baseConfigurationReference = 7E1A120211F96C49CA3D99AED0E857EA /* JSLabels.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -715,7 +715,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -729,8 +729,8 @@
 		2685286DA924F405A665D702F31F5575 /* Build configuration list for PBXNativeTarget "JSLabels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2ADC7943A485AEB6C95B23B882633E7C /* Debug */,
-				E620AD8A32AB1B13F787FF1DB0589D9B /* Release */,
+				DBFD3DE2FAF007A008C8D9FBB1B6331C /* Debug */,
+				F77F6D65699524F488D99E8C46DE316F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

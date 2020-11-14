@@ -1,8 +1,9 @@
 {
   "name": "JSLabels",
   "version": "0.1.0",
-  "summary": "A short description of JSLabels.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "UILabel helpers.",
+  "swift_versions": "5.2",
+  "description": "Some Label stuff for testing Cocoapod Creation and Distribution.",
   "homepage": "https://github.com/JesseSahli/JSLabels",
   "license": {
     "type": "MIT",
@@ -18,5 +19,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JSLabels/Classes/**/*"
+  "source_files": "JSLabels/Classes/**/*",
+  "swift_version": "5.2"
 }
