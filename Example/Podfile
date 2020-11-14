@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSLabels_Example' do
+  pod 'JSLabels', :path => '../'
+
+  target 'JSLabels_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
