@@ -1,0 +1,16 @@
+PODS:
+  - JSLabels (0.1.0)
+
+DEPENDENCIES:
+  - JSLabels (from `../`)
+
+EXTERNAL SOURCES:
+  JSLabels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSLabels: 0e8169c902c5a62b0201b7f131392b373e906a21
+
+PODFILE CHECKSUM: 5192148df68f52ed7e32f6ad55526e61d441c48c
+
+COCOAPODS: 1.9.1
