@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JSLabels'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'UILabel helpers.'
   s.swift_version = '5.2'
 

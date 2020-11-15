@@ -1,6 +1,6 @@
 {
   "name": "JSLabels",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "UILabel helpers.",
   "swift_versions": "5.2",
   "description": "Some Label stuff for testing Cocoapod Creation and Distribution.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/JesseSahli/JSLabels.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

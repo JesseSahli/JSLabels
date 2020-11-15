@@ -1,5 +1,5 @@
 PODS:
-  - JSLabels (0.1.0)
+  - JSLabels (0.2.0)
 
 DEPENDENCIES:
   - JSLabels (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSLabels: ee852bbc3dd75bbb31309669d968b64d466e66e5
+  JSLabels: 934a224625417796d490500e938365d70319de10
 
 PODFILE CHECKSUM: 5192148df68f52ed7e32f6ad55526e61d441c48c
 
